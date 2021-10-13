@@ -1,0 +1,17 @@
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0;
+
+  &__link:link,
+  &__link:visited {
+    text-transform: uppercase;
+    // color: $color-primary;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    // color: $color-secondary;
+  }
+}
