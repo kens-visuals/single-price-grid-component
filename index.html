@@ -1,50 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="cube">
+        <div class="cube__box cube__box--white">
+          <h1 class="cube__heading-primary">Join our community</h1>
+          <h2 class="cube__heading-secondary cube__heading-secondary--green">
+            30-day, hassle-free money back guarantee
+          </h2>
+          <p class="cube__text cube__text--dark">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
 
-  30-day, hassle-free money back guarantee
+        <div class="cube__box cube__box--dark">
+          <h2 class="cube__heading-secondary cube__heading-secondary--white">
+            Monthly Subscription
+          </h2>
+          <p class="cube__text cube__text-price">
+            &dollar;29 <span class="cube__text--span">per month</span>
+          </p>
+          <p class="cube__text cube__text-amount">
+            Full access for less than &dollar;1 a day
+          </p>
+          <a href="#" class="cube__button">Sign Up</a>
+        </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+        <div class="cube__box cube__box--light">
+          <h2 class="cube__heading-secondary cube__heading-secondary--white">
+            Why Us
+          </h2>
+          <ul class="cube__list">
+            <li class="cube__list-item">Tutorials by industry experts</li>
+            <li class="cube__list-item">Peer &amp; expert code review</li>
+            <li class="cube__list-item">Coding exercises</li>
+            <li class="cube__list-item">Access to our GitHub repos</li>
+            <li class="cube__list-item">Community forum</li>
+            <li class="cube__list-item">Flashcard decks</li>
+            <li class="cube__list-item">New videos every week</li>
+          </ul>
+        </div>
+      </main>
+    </div>
 
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a
+        class="attribution__link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="attribution__link"
+        href="https://github.com/kens-visuals"
+        target="_blank"
+        >Kens-Visuals</a
+      >.
+    </footer>
+  </body>
 </html>

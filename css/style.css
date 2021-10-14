@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Karla', sans-serif; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #e5eff5;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center; }
+
+.container {
+  width: 85%;
+  max-width: 31rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 66rem; } }
+
+.cube {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 15px 25px 0px;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto repeat(2, 1fr); }
+  @media (min-width: 768px) {
+    .cube {
+      grid-template-rows: auto 1fr;
+      grid-template-columns: repeat(2, 1fr); } }
+  .cube__box {
+    padding: 2.3rem; }
+    @media (min-width: 768px) {
+      .cube__box {
+        padding: 4.2rem; } }
+    .cube__box--white {
+      background-color: white;
+      padding: 3rem 2.3rem; }
+      @media (min-width: 768px) {
+        .cube__box--white {
+          padding: 4.2rem;
+          grid-column: 1 / -1; } }
+    .cube__box--dark {
+      background-color: #2ab2af; }
+    .cube__box--light {
+      background-color: #4bbebc; }
+  .cube__heading-primary {
+    color: #2ab2af;
+    font-size: 2rem;
+    margin-bottom: 2.6rem; }
+    @media (min-width: 768px) {
+      .cube__heading-primary {
+        font-size: 2.5rem; } }
+  .cube__heading-secondary {
+    margin-bottom: 1.8rem; }
+    .cube__heading-secondary--green {
+      color: #c0df34;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1.2rem; }
+      @media (min-width: 768px) {
+        .cube__heading-secondary--green {
+          font-size: 1.85rem; } }
+    .cube__heading-secondary--white {
+      font-size: 1.8rem;
+      font-weight: 400; }
+      @media (min-width: 768px) {
+        .cube__heading-secondary--white {
+          font-size: 1.9rem; } }
+  .cube__text {
+    color: white; }
+    .cube__text--dark {
+      color: #98a6bd;
+      line-height: 2.7rem;
+      font-size: 1.35rem;
+      opacity: 0.8; }
+      @media (min-width: 768px) {
+        .cube__text--dark {
+          font-size: 1.65rem; } }
+    .cube__text-price {
+      font-size: 3.2rem;
+      font-weight: 700;
+      opacity: 0.9;
+      display: flex;
+      align-items: center; }
+      @media (min-width: 768px) {
+        .cube__text-price {
+          font-size: 3.3rem; } }
+    .cube__text--span {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-left: 1rem;
+      opacity: 0.5; }
+      @media (min-width: 768px) {
+        .cube__text--span {
+          font-size: 1.65rem;
+          margin-left: 1.3rem; } }
+    .cube__text-amount {
+      font-size: 1.6rem;
+      opacity: 0.7;
+      margin-top: 0.7rem; }
+      @media (min-width: 768px) {
+        .cube__text-amount {
+          font-size: 1.62rem; } }
+  .cube__button:link, .cube__button:visited {
+    width: 100%;
+    color: white;
+    background-color: #c0df34;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem;
+    margin-top: 3.5rem;
+    display: inline-block;
+    transition: all 0.2s; }
+    @media (min-width: 768px) {
+      .cube__button:link, .cube__button:visited {
+        margin-top: 3rem; } }
+  .cube__button:hover, .cube__button:active {
+    transform: translateY(0.5rem);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 20px -20px; }
+  .cube__list {
+    list-style: none;
+    font-size: 1.45rem;
+    mix-blend-mode: soft-light;
+    margin-top: 2rem; }
+    .cube__list-item:not(:last-child) {
+      margin-bottom: 0.3rem; }
+
+.attribution {
+  color: #98a6bd;
+  font-size: 1rem;
+  margin: 1rem 0; }
+  .attribution__link:link, .attribution__link:visited {
+    color: #2ab2af;
+    text-transform: uppercase;
+    transition: all 0.2s; }
+  .attribution__link:hover, .attribution__link:active {
+    color: #c0df34; }
