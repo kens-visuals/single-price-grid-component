@@ -84,16 +84,18 @@ body {
     background-color: #c0df34;
     border: transparent;
     border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 15px 0px;
     font-size: 1.7rem;
     padding: 1.5rem;
     margin-top: clamp(3rem, 1vw, 3.5rem);
     transition: all 0.3s; }
-    .cube__button:hover, .cube__button:focus {
-      cursor: pointer;
-      background: none;
-      box-shadow: 0 0 0 1px white, 0 0 0 2px #c0df34, 0 0 0 5px #c0df34, 0 0 0 6.5px white, 0 0 0 7px #c0df34; }
     .cube__button:focus-visible {
       outline: 0.15rem solid #e5eff5; }
+    @media (hover: hover) {
+      .cube__button:hover, .cube__button:focus {
+        cursor: pointer;
+        background: none;
+        box-shadow: 0 0 0 1px white, 0 0 0 2px #c0df34, 0 0 0 5px #c0df34, 0 0 0 6.5px white, 0 0 0 7px #c0df34, rgba(32, 32, 43, 0.4) 0px 5px 15px 5px; } }
   .cube__list {
     list-style: none;
     mix-blend-mode: soft-light;
