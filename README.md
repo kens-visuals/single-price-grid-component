@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [TO_BE_UPDATED](https://your-live-site-url.com)
+- Live Site URL: [https://kens-visuals.github.io/single-price-grid-component/](https://kens-visuals.github.io/single-price-grid-component/)
 - Solution URL: [TO_BE_UPDATED](https://your-solution-url.com)
 
 ## My process
