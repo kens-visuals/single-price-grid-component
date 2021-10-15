@@ -21,9 +21,9 @@ html {
 
 body {
   min-height: 100vh;
-  font-size: 1.6rem;
   color: $color-secondary--light;
   background-color: $color-secondary--dark;
+  font-size: 1.6rem;
   display: grid;
   grid-template-rows: 1fr auto;
   justify-items: center;

@@ -1,11 +1,7 @@
 .container {
   width: 85%;
-  max-width: 31rem;
+  max-width: clamp(31rem, 70vw, 67rem);
   display: flex;
   align-items: center;
   justify-content: center;
-
-  @media (min-width: 768px) {
-    max-width: 66rem;
-  }
 }
