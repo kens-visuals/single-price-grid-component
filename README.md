@@ -56,14 +56,14 @@ Initially when I started the project my only goal was to make it as close to the
 
 ### Continued development
 
-Definetly will work with `CSS Grid` and try to push its boundries even further, and the same is also true for `clamp()`.
+Definitely will work with `CSS Grid` and try to push its boundaries even further, and the same is also true for `clamp()`.
 
 ### Useful resources
 
 - [Kevin Powell's video of `clamp()`](https://youtu.be/U9VF-4euyRo) - The vide that helped me the most to get the grasp of `clamp()`.
-- [Kevin Powell's video of `auto-fit` and `auto-fill`](https://www.youtube.com/watch?v=qjJR3qYCd54) - I refrenced one of my online lectures for this stuff, but Kevin, as always, does a great job of explaing `auto-fit` and `auto-fill`.
+- [Kevin Powell's video of `auto-fit` and `auto-fill`](https://www.youtube.com/watch?v=qjJR3qYCd54) - I referenced one of my online lectures for this stuff, but Kevin, as always, does a great job of explaining `auto-fit` and `auto-fill`.
 - [CSS Scan: `box-shadow`](https://getcssscan.com/css-box-shadow-examples) - Thanks to this awesome collection of `box-shadow`s that help me every time.
-- [CSS for People Who Hate CSS](https://paulcpederson.com/articles/css-for-people-who-hate-css/) - **MUST READ**. Really cool website that simpliy explains how to work more efficiently with CSS.
+- [CSS for People Who Hate CSS](https://paulcpederson.com/articles/css-for-people-who-hate-css/) - **MUST READ**. Really cool website that simply explains how to work more efficiently with CSS.
 
 ## Author
 
