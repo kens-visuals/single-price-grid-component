@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [https://kens-visuals.github.io/single-price-grid-component/](https://kens-visuals.github.io/single-price-grid-component/)
-- Solution URL: [TO_BE_UPDATED](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-with-no-media-queries-dcVj96LxV](https://www.frontendmentor.io/solutions/single-price-grid-component-with-no-media-queries-dcVj96LxV)
 
 ## My process
 
